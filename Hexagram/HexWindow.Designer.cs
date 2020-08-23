@@ -251,6 +251,7 @@
             this.Controls.Add(this.hexEditor);
             this.Controls.Add(this.hexStatus);
             this.Controls.Add(this.hexMenu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.hexMenu;
             this.Name = "HexWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

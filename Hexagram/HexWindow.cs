@@ -1,6 +1,6 @@
 ﻿/* ----------------------------------------------------------------------------
 Hexagram : a hexadecimal file editor
-Copyright (C) 1998-2017  George E Greaney
+Copyright (C) 1998-2020  George E Greaney
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -92,7 +92,7 @@ namespace Hexagram
 
         private void aboutHelpMenuItem_Click(object sender, EventArgs e)
         {
-            String msg = "Hexagram\nversion 1.0.0\n" + "\xA9 Origami Software 1998-2017\n" + "http://origami.kohoutech.com";
+            String msg = "Hexagram\nThe 49th Hexagram of Change\nversion 1.0.0\n\n" + "\xA9 Origami Software 1998-2020\n" + "http://origami.kohoutech.com";
             MessageBox.Show(msg, "About");
         }
     }
